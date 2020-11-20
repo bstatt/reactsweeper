@@ -20,16 +20,17 @@
 		"description" : "React Typescript functional component template",
 		"body": [
 			"import React from 'react';",
-			"import './$1.scss'",
+			"import './$1.scss';",
 			"",
 			"interface IProps {}", 
 			"",
 			"const $1: React.FC = () => {",
 			"",
-			"return (",
-			"<div className='$1'></div>",
-			")",
+			"  return (",
+			"    <div className='$1'></div>",
+			"  );",
 			"};",
+			"",
 			"export default $1;",
 		]
 	}	
